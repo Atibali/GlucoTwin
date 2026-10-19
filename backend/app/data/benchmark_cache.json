@@ -9,1384 +9,1384 @@
       "model_key": "persistence",
       "display_name": "Persistence Baseline",
       "horizon_minutes": 30,
-      "mae": 15.05,
-      "rmse": 22.99,
-      "clarke_zone_a": 93.76,
-      "clarke_zone_b": 6.01,
+      "mae": 15.1,
+      "rmse": 23.12,
+      "clarke_zone_a": 93.66,
+      "clarke_zone_b": 5.96,
       "hypo_sensitivity": 100.0,
-      "hyper_sensitivity": 95.6
+      "hyper_sensitivity": 95.5
     },
     {
       "model_key": "ehr_only",
       "display_name": "EHR Baseline Only",
       "horizon_minutes": 30,
-      "mae": 45.95,
-      "rmse": 54.39,
-      "clarke_zone_a": 50.56,
-      "clarke_zone_b": 46.66,
+      "mae": 45.87,
+      "rmse": 54.67,
+      "clarke_zone_a": 51.02,
+      "clarke_zone_b": 46.79,
       "hypo_sensitivity": 100.0,
-      "hyper_sensitivity": 82.1
+      "hyper_sensitivity": 83.1
     },
     {
       "model_key": "sensor_only",
       "display_name": "Sensor Dynamics Only",
       "horizon_minutes": 30,
-      "mae": 6.66,
-      "rmse": 11.44,
-      "clarke_zone_a": 99.01,
-      "clarke_zone_b": 0.98,
+      "mae": 6.63,
+      "rmse": 11.33,
+      "clarke_zone_a": 98.82,
+      "clarke_zone_b": 1.18,
       "hypo_sensitivity": 100.0,
-      "hyper_sensitivity": 98.3
+      "hyper_sensitivity": 98.7
     },
     {
       "model_key": "fused_twin",
       "display_name": "GlucoTwin Fused (Sensor + EHR)",
       "horizon_minutes": 30,
-      "mae": 6.0,
-      "rmse": 10.59,
-      "clarke_zone_a": 99.21,
-      "clarke_zone_b": 0.78,
+      "mae": 6.16,
+      "rmse": 10.65,
+      "clarke_zone_a": 98.95,
+      "clarke_zone_b": 1.05,
+      "hypo_sensitivity": 100.0,
+      "hyper_sensitivity": 98.6
+    },
+    {
+      "model_key": "persistence",
+      "display_name": "Persistence Baseline",
+      "horizon_minutes": 60,
+      "mae": 27.97,
+      "rmse": 39.46,
+      "clarke_zone_a": 85.59,
+      "clarke_zone_b": 12.75,
+      "hypo_sensitivity": 100.0,
+      "hyper_sensitivity": 91.4
+    },
+    {
+      "model_key": "ehr_only",
+      "display_name": "EHR Baseline Only",
+      "horizon_minutes": 60,
+      "mae": 46.18,
+      "rmse": 55.03,
+      "clarke_zone_a": 50.77,
+      "clarke_zone_b": 46.99,
+      "hypo_sensitivity": 100.0,
+      "hyper_sensitivity": 82.9
+    },
+    {
+      "model_key": "sensor_only",
+      "display_name": "Sensor Dynamics Only",
+      "horizon_minutes": 60,
+      "mae": 10.81,
+      "rmse": 17.19,
+      "clarke_zone_a": 97.09,
+      "clarke_zone_b": 2.91,
+      "hypo_sensitivity": 100.0,
+      "hyper_sensitivity": 99.0
+    },
+    {
+      "model_key": "fused_twin",
+      "display_name": "GlucoTwin Fused (Sensor + EHR)",
+      "horizon_minutes": 60,
+      "mae": 9.69,
+      "rmse": 15.41,
+      "clarke_zone_a": 97.92,
+      "clarke_zone_b": 2.08,
       "hypo_sensitivity": 100.0,
       "hyper_sensitivity": 98.5
     },
     {
       "model_key": "persistence",
       "display_name": "Persistence Baseline",
-      "horizon_minutes": 60,
-      "mae": 27.84,
-      "rmse": 39.0,
-      "clarke_zone_a": 85.34,
-      "clarke_zone_b": 13.32,
-      "hypo_sensitivity": 100.0,
-      "hyper_sensitivity": 91.9
-    },
-    {
-      "model_key": "ehr_only",
-      "display_name": "EHR Baseline Only",
-      "horizon_minutes": 60,
-      "mae": 46.05,
-      "rmse": 54.49,
-      "clarke_zone_a": 50.43,
-      "clarke_zone_b": 46.7,
-      "hypo_sensitivity": 100.0,
-      "hyper_sensitivity": 82.0
-    },
-    {
-      "model_key": "sensor_only",
-      "display_name": "Sensor Dynamics Only",
-      "horizon_minutes": 60,
-      "mae": 10.62,
-      "rmse": 16.26,
-      "clarke_zone_a": 97.76,
-      "clarke_zone_b": 2.23,
-      "hypo_sensitivity": 100.0,
-      "hyper_sensitivity": 98.0
-    },
-    {
-      "model_key": "fused_twin",
-      "display_name": "GlucoTwin Fused (Sensor + EHR)",
-      "horizon_minutes": 60,
-      "mae": 9.22,
-      "rmse": 14.65,
-      "clarke_zone_a": 98.63,
-      "clarke_zone_b": 1.32,
-      "hypo_sensitivity": 100.0,
-      "hyper_sensitivity": 98.1
-    },
-    {
-      "model_key": "persistence",
-      "display_name": "Persistence Baseline",
       "horizon_minutes": 120,
-      "mae": 47.07,
-      "rmse": 58.68,
-      "clarke_zone_a": 50.93,
-      "clarke_zone_b": 45.79,
+      "mae": 47.42,
+      "rmse": 59.85,
+      "clarke_zone_a": 51.48,
+      "clarke_zone_b": 44.57,
       "hypo_sensitivity": 100.0,
-      "hyper_sensitivity": 85.6
+      "hyper_sensitivity": 84.5
     },
     {
       "model_key": "ehr_only",
       "display_name": "EHR Baseline Only",
       "horizon_minutes": 120,
-      "mae": 46.02,
-      "rmse": 54.47,
-      "clarke_zone_a": 50.79,
-      "clarke_zone_b": 46.31,
+      "mae": 46.39,
+      "rmse": 55.22,
+      "clarke_zone_a": 50.92,
+      "clarke_zone_b": 46.84,
       "hypo_sensitivity": 100.0,
-      "hyper_sensitivity": 82.1
+      "hyper_sensitivity": 82.6
     },
     {
       "model_key": "sensor_only",
       "display_name": "Sensor Dynamics Only",
       "horizon_minutes": 120,
-      "mae": 14.97,
-      "rmse": 20.77,
-      "clarke_zone_a": 94.98,
-      "clarke_zone_b": 5.02,
+      "mae": 15.84,
+      "rmse": 23.27,
+      "clarke_zone_a": 93.85,
+      "clarke_zone_b": 6.15,
       "hypo_sensitivity": 100.0,
-      "hyper_sensitivity": 97.4
+      "hyper_sensitivity": 98.3
     },
     {
       "model_key": "fused_twin",
       "display_name": "GlucoTwin Fused (Sensor + EHR)",
       "horizon_minutes": 120,
-      "mae": 12.85,
-      "rmse": 18.83,
-      "clarke_zone_a": 97.07,
-      "clarke_zone_b": 2.93,
+      "mae": 14.53,
+      "rmse": 21.38,
+      "clarke_zone_a": 95.28,
+      "clarke_zone_b": 4.72,
       "hypo_sensitivity": 100.0,
-      "hyper_sensitivity": 97.3
+      "hyper_sensitivity": 97.7
     }
   ],
   "clarke_sample_points": [
     {
-      "reference": 170.2,
-      "predicted": 187.2,
+      "reference": 163.3,
+      "predicted": 166.8,
       "zone": "A"
     },
     {
-      "reference": 226.6,
-      "predicted": 236.7,
+      "reference": 244.7,
+      "predicted": 233.2,
       "zone": "A"
     },
     {
-      "reference": 223.0,
-      "predicted": 222.0,
-      "zone": "A"
-    },
-    {
-      "reference": 169.9,
-      "predicted": 172.6,
-      "zone": "A"
-    },
-    {
-      "reference": 145.7,
-      "predicted": 150.6,
-      "zone": "A"
-    },
-    {
-      "reference": 138.8,
-      "predicted": 146.8,
-      "zone": "A"
-    },
-    {
-      "reference": 225.7,
-      "predicted": 213.1,
-      "zone": "A"
-    },
-    {
-      "reference": 216.2,
-      "predicted": 214.3,
-      "zone": "A"
-    },
-    {
-      "reference": 290.9,
-      "predicted": 289.6,
-      "zone": "A"
-    },
-    {
-      "reference": 257.7,
-      "predicted": 264.8,
-      "zone": "A"
-    },
-    {
-      "reference": 219.0,
-      "predicted": 220.0,
-      "zone": "A"
-    },
-    {
-      "reference": 315.3,
-      "predicted": 318.6,
-      "zone": "A"
-    },
-    {
-      "reference": 258.6,
-      "predicted": 251.9,
-      "zone": "A"
-    },
-    {
-      "reference": 173.4,
-      "predicted": 180.8,
-      "zone": "A"
-    },
-    {
-      "reference": 144.6,
-      "predicted": 150.6,
-      "zone": "A"
-    },
-    {
-      "reference": 144.1,
-      "predicted": 146.8,
-      "zone": "A"
-    },
-    {
-      "reference": 227.4,
-      "predicted": 230.9,
-      "zone": "A"
-    },
-    {
-      "reference": 210.7,
-      "predicted": 209.0,
-      "zone": "A"
-    },
-    {
-      "reference": 288.9,
-      "predicted": 296.6,
-      "zone": "A"
-    },
-    {
-      "reference": 270.0,
-      "predicted": 273.1,
-      "zone": "A"
-    },
-    {
-      "reference": 265.2,
-      "predicted": 257.4,
-      "zone": "A"
-    },
-    {
-      "reference": 349.8,
-      "predicted": 349.5,
-      "zone": "A"
-    },
-    {
-      "reference": 281.5,
-      "predicted": 279.8,
-      "zone": "A"
-    },
-    {
-      "reference": 194.1,
-      "predicted": 191.9,
-      "zone": "A"
-    },
-    {
-      "reference": 152.7,
-      "predicted": 150.8,
-      "zone": "A"
-    },
-    {
-      "reference": 146.8,
-      "predicted": 148.3,
-      "zone": "A"
-    },
-    {
-      "reference": 229.1,
-      "predicted": 227.2,
-      "zone": "A"
-    },
-    {
-      "reference": 205.5,
-      "predicted": 206.1,
-      "zone": "A"
-    },
-    {
-      "reference": 263.0,
-      "predicted": 263.2,
-      "zone": "A"
-    },
-    {
-      "reference": 248.9,
-      "predicted": 249.7,
-      "zone": "A"
-    },
-    {
-      "reference": 220.5,
-      "predicted": 216.6,
-      "zone": "A"
-    },
-    {
-      "reference": 309.9,
-      "predicted": 295.8,
-      "zone": "A"
-    },
-    {
-      "reference": 254.1,
-      "predicted": 250.8,
-      "zone": "A"
-    },
-    {
-      "reference": 184.3,
-      "predicted": 180.9,
-      "zone": "A"
-    },
-    {
-      "reference": 145.5,
-      "predicted": 150.8,
-      "zone": "A"
-    },
-    {
-      "reference": 147.6,
-      "predicted": 146.8,
-      "zone": "A"
-    },
-    {
-      "reference": 260.8,
-      "predicted": 253.9,
-      "zone": "A"
-    },
-    {
-      "reference": 239.3,
-      "predicted": 237.3,
-      "zone": "A"
-    },
-    {
-      "reference": 289.1,
-      "predicted": 292.0,
-      "zone": "A"
-    },
-    {
-      "reference": 249.8,
-      "predicted": 259.5,
-      "zone": "A"
-    },
-    {
-      "reference": 268.3,
-      "predicted": 265.4,
-      "zone": "A"
-    },
-    {
-      "reference": 272.3,
-      "predicted": 267.8,
-      "zone": "A"
-    },
-    {
-      "reference": 222.2,
-      "predicted": 226.2,
-      "zone": "A"
-    },
-    {
-      "reference": 373.9,
-      "predicted": 369.9,
-      "zone": "A"
-    },
-    {
-      "reference": 289.4,
-      "predicted": 290.4,
-      "zone": "A"
-    },
-    {
-      "reference": 226.2,
-      "predicted": 227.4,
-      "zone": "A"
-    },
-    {
-      "reference": 197.7,
-      "predicted": 191.1,
-      "zone": "A"
-    },
-    {
-      "reference": 162.4,
-      "predicted": 161.1,
-      "zone": "A"
-    },
-    {
-      "reference": 304.1,
-      "predicted": 308.7,
-      "zone": "A"
-    },
-    {
-      "reference": 252.0,
-      "predicted": 261.0,
-      "zone": "A"
-    },
-    {
-      "reference": 368.0,
-      "predicted": 367.8,
-      "zone": "A"
-    },
-    {
-      "reference": 330.7,
-      "predicted": 344.0,
-      "zone": "A"
-    },
-    {
-      "reference": 275.4,
-      "predicted": 286.8,
-      "zone": "A"
-    },
-    {
-      "reference": 321.6,
-      "predicted": 326.0,
-      "zone": "A"
-    },
-    {
-      "reference": 253.5,
-      "predicted": 251.1,
-      "zone": "A"
-    },
-    {
-      "reference": 204.0,
-      "predicted": 207.2,
-      "zone": "A"
-    },
-    {
-      "reference": 192.2,
-      "predicted": 190.1,
-      "zone": "A"
-    },
-    {
-      "reference": 184.3,
-      "predicted": 188.6,
-      "zone": "A"
-    },
-    {
-      "reference": 291.6,
-      "predicted": 297.3,
-      "zone": "A"
-    },
-    {
-      "reference": 236.4,
-      "predicted": 239.1,
-      "zone": "A"
-    },
-    {
-      "reference": 377.5,
-      "predicted": 376.5,
-      "zone": "A"
-    },
-    {
-      "reference": 301.0,
-      "predicted": 302.2,
-      "zone": "A"
-    },
-    {
-      "reference": 223.8,
-      "predicted": 237.0,
-      "zone": "A"
-    },
-    {
-      "reference": 373.9,
-      "predicted": 370.7,
-      "zone": "A"
-    },
-    {
-      "reference": 284.3,
-      "predicted": 283.0,
-      "zone": "A"
-    },
-    {
-      "reference": 222.2,
-      "predicted": 221.6,
-      "zone": "A"
-    },
-    {
-      "reference": 199.2,
-      "predicted": 192.3,
-      "zone": "A"
-    },
-    {
-      "reference": 186.3,
-      "predicted": 190.1,
-      "zone": "A"
-    },
-    {
-      "reference": 345.6,
-      "predicted": 346.8,
-      "zone": "A"
-    },
-    {
-      "reference": 272.3,
-      "predicted": 273.2,
-      "zone": "A"
-    },
-    {
-      "reference": 379.9,
-      "predicted": 374.2,
-      "zone": "A"
-    },
-    {
-      "reference": 332.1,
-      "predicted": 305.8,
-      "zone": "A"
-    },
-    {
-      "reference": 288.5,
-      "predicted": 289.7,
-      "zone": "A"
-    },
-    {
-      "reference": 382.3,
-      "predicted": 376.9,
-      "zone": "A"
-    },
-    {
-      "reference": 301.2,
-      "predicted": 302.7,
-      "zone": "A"
-    },
-    {
-      "reference": 224.5,
-      "predicted": 227.6,
-      "zone": "A"
-    },
-    {
-      "reference": 198.3,
-      "predicted": 203.6,
-      "zone": "A"
-    },
-    {
-      "reference": 184.9,
-      "predicted": 190.1,
-      "zone": "A"
-    },
-    {
-      "reference": 317.9,
-      "predicted": 322.4,
-      "zone": "A"
-    },
-    {
-      "reference": 253.6,
-      "predicted": 256.9,
-      "zone": "A"
-    },
-    {
-      "reference": 380.6,
-      "predicted": 376.0,
-      "zone": "A"
-    },
-    {
-      "reference": 362.0,
-      "predicted": 364.9,
-      "zone": "A"
-    },
-    {
-      "reference": 300.8,
-      "predicted": 305.8,
-      "zone": "A"
-    },
-    {
-      "reference": 368.0,
-      "predicted": 366.4,
-      "zone": "A"
-    },
-    {
-      "reference": 276.9,
-      "predicted": 288.5,
-      "zone": "A"
-    },
-    {
-      "reference": 241.5,
-      "predicted": 240.3,
-      "zone": "A"
-    },
-    {
-      "reference": 159.4,
-      "predicted": 156.3,
-      "zone": "A"
-    },
-    {
-      "reference": 124.6,
-      "predicted": 128.4,
-      "zone": "A"
-    },
-    {
-      "reference": 119.7,
-      "predicted": 120.3,
-      "zone": "A"
-    },
-    {
-      "reference": 197.3,
-      "predicted": 195.1,
-      "zone": "A"
-    },
-    {
-      "reference": 176.7,
-      "predicted": 180.4,
-      "zone": "A"
-    },
-    {
-      "reference": 242.2,
-      "predicted": 259.5,
-      "zone": "A"
-    },
-    {
-      "reference": 216.8,
-      "predicted": 219.4,
-      "zone": "A"
-    },
-    {
-      "reference": 208.8,
-      "predicted": 201.0,
-      "zone": "A"
-    },
-    {
-      "reference": 304.3,
-      "predicted": 301.8,
-      "zone": "A"
-    },
-    {
-      "reference": 230.3,
-      "predicted": 233.8,
-      "zone": "A"
-    },
-    {
-      "reference": 156.0,
-      "predicted": 153.5,
-      "zone": "A"
-    },
-    {
-      "reference": 129.5,
-      "predicted": 126.6,
-      "zone": "A"
-    },
-    {
-      "reference": 125.5,
-      "predicted": 122.6,
-      "zone": "A"
-    },
-    {
-      "reference": 195.0,
-      "predicted": 190.8,
-      "zone": "A"
-    },
-    {
-      "reference": 171.8,
-      "predicted": 178.6,
-      "zone": "A"
-    },
-    {
-      "reference": 276.6,
-      "predicted": 266.7,
-      "zone": "A"
-    },
-    {
-      "reference": 243.2,
-      "predicted": 241.9,
-      "zone": "A"
-    },
-    {
-      "reference": 215.3,
-      "predicted": 215.5,
-      "zone": "A"
-    },
-    {
-      "reference": 248.1,
-      "predicted": 247.4,
-      "zone": "A"
-    },
-    {
-      "reference": 207.5,
-      "predicted": 208.3,
-      "zone": "A"
-    },
-    {
-      "reference": 142.6,
-      "predicted": 147.2,
-      "zone": "A"
-    },
-    {
-      "reference": 126.5,
-      "predicted": 123.9,
-      "zone": "A"
-    },
-    {
-      "reference": 121.2,
-      "predicted": 120.3,
-      "zone": "A"
-    },
-    {
-      "reference": 174.9,
-      "predicted": 178.7,
-      "zone": "A"
-    },
-    {
-      "reference": 162.4,
-      "predicted": 160.8,
-      "zone": "A"
-    },
-    {
-      "reference": 211.3,
-      "predicted": 188.6,
-      "zone": "A"
-    },
-    {
-      "reference": 209.4,
-      "predicted": 211.0,
-      "zone": "A"
-    },
-    {
-      "reference": 151.1,
-      "predicted": 153.4,
-      "zone": "A"
-    },
-    {
-      "reference": 223.5,
-      "predicted": 217.9,
-      "zone": "A"
-    },
-    {
-      "reference": 183.2,
-      "predicted": 180.7,
-      "zone": "A"
-    },
-    {
-      "reference": 137.7,
-      "predicted": 140.2,
-      "zone": "A"
-    },
-    {
-      "reference": 116.8,
-      "predicted": 123.2,
-      "zone": "A"
-    },
-    {
-      "reference": 123.2,
-      "predicted": 121.0,
-      "zone": "A"
-    },
-    {
-      "reference": 204.5,
-      "predicted": 198.8,
-      "zone": "A"
-    },
-    {
-      "reference": 182.5,
-      "predicted": 178.5,
-      "zone": "A"
-    },
-    {
-      "reference": 179.8,
-      "predicted": 188.4,
-      "zone": "A"
-    },
-    {
-      "reference": 163.0,
-      "predicted": 171.7,
-      "zone": "A"
-    },
-    {
-      "reference": 110.9,
-      "predicted": 101.9,
-      "zone": "A"
-    },
-    {
-      "reference": 226.5,
-      "predicted": 217.1,
-      "zone": "A"
-    },
-    {
-      "reference": 227.1,
-      "predicted": 232.0,
-      "zone": "A"
-    },
-    {
-      "reference": 308.2,
-      "predicted": 306.4,
-      "zone": "A"
-    },
-    {
-      "reference": 230.7,
-      "predicted": 224.4,
-      "zone": "A"
-    },
-    {
-      "reference": 179.4,
-      "predicted": 186.5,
-      "zone": "A"
-    },
-    {
-      "reference": 166.4,
-      "predicted": 165.2,
-      "zone": "A"
-    },
-    {
-      "reference": 146.4,
-      "predicted": 155.2,
-      "zone": "A"
-    },
-    {
-      "reference": 241.8,
-      "predicted": 241.7,
-      "zone": "A"
-    },
-    {
-      "reference": 198.0,
-      "predicted": 202.9,
-      "zone": "A"
-    },
-    {
-      "reference": 295.4,
-      "predicted": 288.5,
-      "zone": "A"
-    },
-    {
-      "reference": 261.4,
-      "predicted": 235.2,
-      "zone": "A"
-    },
-    {
-      "reference": 249.1,
-      "predicted": 249.3,
-      "zone": "A"
-    },
-    {
-      "reference": 325.6,
-      "predicted": 333.3,
-      "zone": "A"
-    },
-    {
-      "reference": 237.3,
-      "predicted": 234.7,
-      "zone": "A"
-    },
-    {
-      "reference": 180.7,
-      "predicted": 186.5,
-      "zone": "A"
-    },
-    {
-      "reference": 166.5,
-      "predicted": 165.2,
-      "zone": "A"
-    },
-    {
-      "reference": 164.5,
-      "predicted": 158.8,
-      "zone": "A"
-    },
-    {
-      "reference": 247.5,
-      "predicted": 247.7,
-      "zone": "A"
-    },
-    {
-      "reference": 198.9,
-      "predicted": 203.2,
-      "zone": "A"
-    },
-    {
-      "reference": 314.2,
-      "predicted": 310.4,
-      "zone": "A"
-    },
-    {
-      "reference": 232.5,
-      "predicted": 239.9,
-      "zone": "A"
-    },
-    {
-      "reference": 166.8,
-      "predicted": 181.4,
-      "zone": "A"
-    },
-    {
-      "reference": 275.7,
-      "predicted": 273.9,
-      "zone": "A"
-    },
-    {
-      "reference": 213.3,
-      "predicted": 211.2,
+      "reference": 243.7,
+      "predicted": 234.9,
       "zone": "A"
     },
     {
       "reference": 175.7,
-      "predicted": 174.3,
+      "predicted": 178.0,
       "zone": "A"
     },
     {
-      "reference": 160.5,
-      "predicted": 162.7,
+      "reference": 141.8,
+      "predicted": 145.1,
       "zone": "A"
     },
     {
-      "reference": 165.3,
-      "predicted": 160.0,
+      "reference": 144.0,
+      "predicted": 143.3,
       "zone": "A"
     },
     {
-      "reference": 287.3,
-      "predicted": 286.2,
+      "reference": 213.7,
+      "predicted": 208.3,
       "zone": "A"
     },
     {
-      "reference": 223.5,
-      "predicted": 222.3,
+      "reference": 205.8,
+      "predicted": 204.0,
       "zone": "A"
     },
     {
-      "reference": 317.8,
-      "predicted": 316.1,
+      "reference": 285.9,
+      "predicted": 288.6,
       "zone": "A"
     },
     {
-      "reference": 260.2,
-      "predicted": 244.4,
+      "reference": 270.7,
+      "predicted": 270.6,
       "zone": "A"
     },
     {
-      "reference": 211.6,
-      "predicted": 215.7,
+      "reference": 264.7,
+      "predicted": 256.9,
       "zone": "A"
     },
     {
-      "reference": 322.4,
-      "predicted": 328.9,
+      "reference": 289.8,
+      "predicted": 296.2,
       "zone": "A"
     },
     {
-      "reference": 227.4,
-      "predicted": 231.4,
+      "reference": 235.9,
+      "predicted": 236.7,
       "zone": "A"
     },
     {
-      "reference": 181.1,
-      "predicted": 184.3,
+      "reference": 173.8,
+      "predicted": 177.5,
       "zone": "A"
     },
     {
-      "reference": 171.0,
-      "predicted": 165.2,
+      "reference": 146.1,
+      "predicted": 146.7,
       "zone": "A"
     },
     {
-      "reference": 135.7,
-      "predicted": 141.9,
+      "reference": 145.0,
+      "predicted": 141.0,
       "zone": "A"
     },
     {
-      "reference": 235.3,
-      "predicted": 236.1,
+      "reference": 220.5,
+      "predicted": 221.8,
       "zone": "A"
     },
     {
-      "reference": 197.8,
-      "predicted": 198.7,
+      "reference": 200.9,
+      "predicted": 203.4,
       "zone": "A"
     },
     {
-      "reference": 323.0,
-      "predicted": 326.9,
+      "reference": 243.7,
+      "predicted": 260.0,
       "zone": "A"
     },
     {
-      "reference": 275.7,
-      "predicted": 245.2,
+      "reference": 212.2,
+      "predicted": 223.4,
       "zone": "A"
     },
     {
-      "reference": 231.5,
-      "predicted": 238.0,
+      "reference": 200.2,
+      "predicted": 206.8,
       "zone": "A"
     },
     {
-      "reference": 313.7,
-      "predicted": 319.3,
+      "reference": 304.7,
+      "predicted": 290.5,
       "zone": "A"
     },
     {
-      "reference": 379.5,
-      "predicted": 386.8,
+      "reference": 279.1,
+      "predicted": 278.5,
       "zone": "A"
     },
     {
-      "reference": 351.2,
-      "predicted": 351.9,
+      "reference": 190.4,
+      "predicted": 194.7,
       "zone": "A"
     },
     {
-      "reference": 277.3,
-      "predicted": 277.1,
+      "reference": 153.7,
+      "predicted": 160.4,
       "zone": "A"
     },
     {
-      "reference": 230.5,
-      "predicted": 231.8,
+      "reference": 146.8,
+      "predicted": 146.7,
       "zone": "A"
     },
     {
-      "reference": 213.5,
-      "predicted": 214.0,
+      "reference": 186.9,
+      "predicted": 191.9,
       "zone": "A"
     },
     {
-      "reference": 348.1,
-      "predicted": 334.2,
+      "reference": 180.0,
+      "predicted": 183.1,
+      "zone": "A"
+    },
+    {
+      "reference": 266.9,
+      "predicted": 260.4,
+      "zone": "A"
+    },
+    {
+      "reference": 271.0,
+      "predicted": 272.3,
+      "zone": "A"
+    },
+    {
+      "reference": 289.8,
+      "predicted": 284.7,
+      "zone": "A"
+    },
+    {
+      "reference": 303.5,
+      "predicted": 300.4,
+      "zone": "A"
+    },
+    {
+      "reference": 247.5,
+      "predicted": 241.1,
+      "zone": "A"
+    },
+    {
+      "reference": 174.9,
+      "predicted": 177.3,
+      "zone": "A"
+    },
+    {
+      "reference": 142.8,
+      "predicted": 146.7,
+      "zone": "A"
+    },
+    {
+      "reference": 146.6,
+      "predicted": 142.7,
+      "zone": "A"
+    },
+    {
+      "reference": 191.3,
+      "predicted": 191.8,
+      "zone": "A"
+    },
+    {
+      "reference": 184.8,
+      "predicted": 184.4,
+      "zone": "A"
+    },
+    {
+      "reference": 226.1,
+      "predicted": 235.4,
+      "zone": "A"
+    },
+    {
+      "reference": 227.3,
+      "predicted": 234.5,
+      "zone": "A"
+    },
+    {
+      "reference": 226.6,
+      "predicted": 221.7,
+      "zone": "A"
+    },
+    {
+      "reference": 328.6,
+      "predicted": 310.5,
+      "zone": "A"
+    },
+    {
+      "reference": 223.6,
+      "predicted": 239.8,
+      "zone": "A"
+    },
+    {
+      "reference": 326.7,
+      "predicted": 330.0,
+      "zone": "A"
+    },
+    {
+      "reference": 257.2,
+      "predicted": 260.5,
+      "zone": "A"
+    },
+    {
+      "reference": 205.3,
+      "predicted": 210.2,
+      "zone": "A"
+    },
+    {
+      "reference": 190.7,
+      "predicted": 187.6,
+      "zone": "A"
+    },
+    {
+      "reference": 179.8,
+      "predicted": 186.7,
       "zone": "A"
     },
     {
       "reference": 335.3,
-      "predicted": 330.5,
+      "predicted": 332.1,
       "zone": "A"
     },
     {
-      "reference": 379.8,
-      "predicted": 336.5,
+      "reference": 266.0,
+      "predicted": 265.2,
       "zone": "A"
     },
     {
-      "reference": 353.6,
-      "predicted": 368.0,
+      "reference": 380.8,
+      "predicted": 377.5,
       "zone": "A"
     },
     {
-      "reference": 337.1,
-      "predicted": 335.0,
+      "reference": 300.4,
+      "predicted": 301.6,
       "zone": "A"
     },
     {
-      "reference": 382.6,
-      "predicted": 386.4,
+      "reference": 233.4,
+      "predicted": 246.3,
       "zone": "A"
     },
     {
-      "reference": 333.3,
-      "predicted": 337.3,
+      "reference": 376.1,
+      "predicted": 374.4,
       "zone": "A"
     },
     {
-      "reference": 262.5,
-      "predicted": 259.9,
+      "reference": 286.5,
+      "predicted": 285.6,
       "zone": "A"
     },
     {
-      "reference": 223.3,
-      "predicted": 222.8,
+      "reference": 220.8,
+      "predicted": 219.8,
       "zone": "A"
     },
     {
-      "reference": 211.0,
-      "predicted": 207.2,
+      "reference": 196.5,
+      "predicted": 200.9,
       "zone": "A"
     },
     {
-      "reference": 314.4,
-      "predicted": 314.7,
+      "reference": 186.7,
+      "predicted": 188.7,
       "zone": "A"
     },
     {
-      "reference": 324.1,
-      "predicted": 319.5,
+      "reference": 297.1,
+      "predicted": 288.0,
       "zone": "A"
     },
     {
-      "reference": 375.1,
-      "predicted": 382.8,
+      "reference": 240.1,
+      "predicted": 242.4,
       "zone": "A"
     },
     {
-      "reference": 354.7,
-      "predicted": 371.6,
+      "reference": 378.6,
+      "predicted": 374.1,
       "zone": "A"
     },
     {
-      "reference": 254.8,
-      "predicted": 265.9,
+      "reference": 326.0,
+      "predicted": 293.0,
       "zone": "A"
     },
     {
-      "reference": 385.0,
-      "predicted": 388.6,
+      "reference": 280.2,
+      "predicted": 281.0,
       "zone": "A"
     },
     {
-      "reference": 349.5,
-      "predicted": 350.0,
+      "reference": 376.7,
+      "predicted": 380.4,
       "zone": "A"
     },
     {
-      "reference": 271.3,
-      "predicted": 272.5,
+      "reference": 302.8,
+      "predicted": 301.7,
       "zone": "A"
     },
     {
-      "reference": 234.2,
+      "reference": 229.4,
       "predicted": 232.0,
       "zone": "A"
     },
     {
-      "reference": 212.8,
-      "predicted": 208.5,
+      "reference": 199.3,
+      "predicted": 200.9,
       "zone": "A"
     },
     {
-      "reference": 295.1,
-      "predicted": 299.5,
+      "reference": 193.5,
+      "predicted": 188.4,
       "zone": "A"
     },
     {
-      "reference": 299.2,
-      "predicted": 295.9,
+      "reference": 319.4,
+      "predicted": 320.2,
       "zone": "A"
     },
     {
-      "reference": 351.2,
-      "predicted": 308.0,
+      "reference": 263.4,
+      "predicted": 265.0,
       "zone": "A"
     },
     {
-      "reference": 362.2,
-      "predicted": 358.7,
+      "reference": 336.0,
+      "predicted": 339.4,
       "zone": "A"
     },
     {
-      "reference": 319.8,
-      "predicted": 320.6,
+      "reference": 308.9,
+      "predicted": 295.6,
       "zone": "A"
     },
     {
-      "reference": 377.2,
-      "predicted": 377.7,
+      "reference": 256.9,
+      "predicted": 267.8,
       "zone": "A"
     },
     {
-      "reference": 361.1,
-      "predicted": 364.9,
+      "reference": 379.3,
+      "predicted": 377.1,
       "zone": "A"
     },
     {
-      "reference": 280.8,
-      "predicted": 285.7,
+      "reference": 288.5,
+      "predicted": 292.5,
       "zone": "A"
     },
     {
-      "reference": 232.6,
-      "predicted": 237.9,
+      "reference": 222.4,
+      "predicted": 225.0,
       "zone": "A"
     },
     {
-      "reference": 214.4,
-      "predicted": 216.3,
+      "reference": 198.5,
+      "predicted": 199.9,
       "zone": "A"
     },
     {
-      "reference": 310.7,
-      "predicted": 313.6,
+      "reference": 176.1,
+      "predicted": 172.9,
       "zone": "A"
     },
     {
-      "reference": 294.1,
-      "predicted": 302.7,
+      "reference": 269.6,
+      "predicted": 269.4,
       "zone": "A"
     },
     {
-      "reference": 330.3,
-      "predicted": 305.8,
+      "reference": 220.9,
+      "predicted": 225.0,
       "zone": "A"
     },
     {
-      "reference": 355.1,
-      "predicted": 355.6,
+      "reference": 344.1,
+      "predicted": 345.4,
       "zone": "A"
     },
     {
-      "reference": 278.7,
-      "predicted": 286.0,
+      "reference": 339.2,
+      "predicted": 331.1,
       "zone": "A"
     },
     {
-      "reference": 383.4,
-      "predicted": 379.0,
+      "reference": 303.3,
+      "predicted": 297.0,
       "zone": "A"
     },
     {
-      "reference": 90.5,
-      "predicted": 100.8,
+      "reference": 369.9,
+      "predicted": 374.2,
       "zone": "A"
     },
     {
-      "reference": 208.4,
-      "predicted": 206.0,
+      "reference": 210.1,
+      "predicted": 197.0,
       "zone": "A"
     },
     {
-      "reference": 143.9,
-      "predicted": 149.5,
+      "reference": 208.1,
+      "predicted": 205.3,
       "zone": "A"
     },
     {
-      "reference": 119.4,
-      "predicted": 115.8,
+      "reference": 148.3,
+      "predicted": 150.3,
       "zone": "A"
     },
     {
-      "reference": 113.6,
-      "predicted": 112.3,
+      "reference": 121.0,
+      "predicted": 125.8,
       "zone": "A"
     },
     {
-      "reference": 117.0,
-      "predicted": 114.3,
+      "reference": 123.8,
+      "predicted": 120.7,
       "zone": "A"
     },
     {
-      "reference": 160.5,
-      "predicted": 159.4,
+      "reference": 184.6,
+      "predicted": 181.9,
       "zone": "A"
     },
     {
-      "reference": 127.9,
-      "predicted": 129.2,
+      "reference": 160.6,
+      "predicted": 159.3,
       "zone": "A"
     },
     {
-      "reference": 214.3,
-      "predicted": 214.4,
-      "zone": "A"
-    },
-    {
-      "reference": 169.1,
-      "predicted": 156.7,
-      "zone": "A"
-    },
-    {
-      "reference": 103.4,
-      "predicted": 111.5,
-      "zone": "A"
-    },
-    {
-      "reference": 252.2,
-      "predicted": 252.0,
-      "zone": "A"
-    },
-    {
-      "reference": 172.4,
-      "predicted": 173.3,
-      "zone": "A"
-    },
-    {
-      "reference": 121.2,
-      "predicted": 119.3,
-      "zone": "A"
-    },
-    {
-      "reference": 114.4,
-      "predicted": 113.8,
-      "zone": "A"
-    },
-    {
-      "reference": 113.5,
-      "predicted": 117.1,
-      "zone": "A"
-    },
-    {
-      "reference": 183.1,
-      "predicted": 186.6,
-      "zone": "A"
-    },
-    {
-      "reference": 140.1,
-      "predicted": 140.0,
-      "zone": "A"
-    },
-    {
-      "reference": 244.5,
-      "predicted": 244.4,
-      "zone": "A"
-    },
-    {
-      "reference": 197.8,
-      "predicted": 199.5,
-      "zone": "A"
-    },
-    {
-      "reference": 119.5,
-      "predicted": 121.5,
-      "zone": "A"
-    },
-    {
-      "reference": 184.5,
+      "reference": 213.6,
       "predicted": 190.7,
       "zone": "A"
     },
     {
-      "reference": 138.5,
-      "predicted": 139.1,
+      "reference": 210.7,
+      "predicted": 218.2,
       "zone": "A"
     },
     {
-      "reference": 111.7,
-      "predicted": 114.0,
+      "reference": 153.1,
+      "predicted": 154.3,
       "zone": "A"
     },
     {
-      "reference": 114.3,
-      "predicted": 110.8,
+      "reference": 229.1,
+      "predicted": 230.9,
       "zone": "A"
     },
     {
-      "reference": 118.2,
-      "predicted": 115.9,
+      "reference": 194.9,
+      "predicted": 197.2,
       "zone": "A"
     },
     {
-      "reference": 177.4,
-      "predicted": 186.1,
+      "reference": 140.1,
+      "predicted": 141.2,
       "zone": "A"
     },
     {
-      "reference": 138.3,
-      "predicted": 138.2,
+      "reference": 121.2,
+      "predicted": 122.5,
       "zone": "A"
     },
     {
-      "reference": 233.1,
-      "predicted": 235.5,
+      "reference": 122.8,
+      "predicted": 121.7,
       "zone": "A"
     },
     {
-      "reference": 181.5,
-      "predicted": 171.0,
+      "reference": 183.6,
+      "predicted": 181.8,
       "zone": "A"
     },
     {
-      "reference": 110.2,
+      "reference": 169.6,
+      "predicted": 167.8,
+      "zone": "A"
+    },
+    {
+      "reference": 252.3,
+      "predicted": 242.0,
+      "zone": "A"
+    },
+    {
+      "reference": 213.9,
+      "predicted": 223.4,
+      "zone": "A"
+    },
+    {
+      "reference": 178.7,
+      "predicted": 175.2,
+      "zone": "A"
+    },
+    {
+      "reference": 259.7,
+      "predicted": 253.4,
+      "zone": "A"
+    },
+    {
+      "reference": 222.6,
+      "predicted": 230.6,
+      "zone": "A"
+    },
+    {
+      "reference": 154.8,
+      "predicted": 156.5,
+      "zone": "A"
+    },
+    {
+      "reference": 126.8,
+      "predicted": 125.2,
+      "zone": "A"
+    },
+    {
+      "reference": 121.0,
+      "predicted": 123.4,
+      "zone": "A"
+    },
+    {
+      "reference": 208.6,
+      "predicted": 203.2,
+      "zone": "A"
+    },
+    {
+      "reference": 189.8,
+      "predicted": 193.4,
+      "zone": "A"
+    },
+    {
+      "reference": 223.4,
+      "predicted": 189.6,
+      "zone": "A"
+    },
+    {
+      "reference": 226.6,
+      "predicted": 237.5,
+      "zone": "A"
+    },
+    {
+      "reference": 209.3,
+      "predicted": 201.9,
+      "zone": "A"
+    },
+    {
+      "reference": 228.7,
+      "predicted": 240.6,
+      "zone": "A"
+    },
+    {
+      "reference": 187.8,
+      "predicted": 189.8,
+      "zone": "A"
+    },
+    {
+      "reference": 142.0,
+      "predicted": 136.4,
+      "zone": "A"
+    },
+    {
+      "reference": 120.4,
+      "predicted": 122.5,
+      "zone": "A"
+    },
+    {
+      "reference": 121.3,
+      "predicted": 119.5,
+      "zone": "A"
+    },
+    {
+      "reference": 208.3,
+      "predicted": 207.8,
+      "zone": "A"
+    },
+    {
+      "reference": 186.2,
+      "predicted": 188.9,
+      "zone": "A"
+    },
+    {
+      "reference": 290.5,
+      "predicted": 275.3,
+      "zone": "A"
+    },
+    {
+      "reference": 251.5,
+      "predicted": 261.9,
+      "zone": "A"
+    },
+    {
+      "reference": 212.4,
+      "predicted": 207.5,
+      "zone": "A"
+    },
+    {
+      "reference": 258.1,
+      "predicted": 262.3,
+      "zone": "A"
+    },
+    {
+      "reference": 206.4,
+      "predicted": 206.9,
+      "zone": "A"
+    },
+    {
+      "reference": 373.0,
+      "predicted": 371.2,
+      "zone": "A"
+    },
+    {
+      "reference": 258.9,
+      "predicted": 255.8,
+      "zone": "A"
+    },
+    {
+      "reference": 190.5,
+      "predicted": 185.6,
+      "zone": "A"
+    },
+    {
+      "reference": 172.7,
+      "predicted": 164.8,
+      "zone": "A"
+    },
+    {
+      "reference": 167.8,
+      "predicted": 165.2,
+      "zone": "A"
+    },
+    {
+      "reference": 277.3,
+      "predicted": 284.8,
+      "zone": "A"
+    },
+    {
+      "reference": 219.5,
+      "predicted": 213.0,
+      "zone": "A"
+    },
+    {
+      "reference": 310.1,
+      "predicted": 310.5,
+      "zone": "A"
+    },
+    {
+      "reference": 287.9,
+      "predicted": 269.8,
+      "zone": "A"
+    },
+    {
+      "reference": 240.0,
+      "predicted": 240.4,
+      "zone": "A"
+    },
+    {
+      "reference": 351.4,
+      "predicted": 342.5,
+      "zone": "A"
+    },
+    {
+      "reference": 242.2,
+      "predicted": 242.8,
+      "zone": "A"
+    },
+    {
+      "reference": 184.0,
+      "predicted": 189.5,
+      "zone": "A"
+    },
+    {
+      "reference": 169.2,
+      "predicted": 164.1,
+      "zone": "A"
+    },
+    {
+      "reference": 164.4,
+      "predicted": 165.8,
+      "zone": "A"
+    },
+    {
+      "reference": 307.0,
+      "predicted": 309.1,
+      "zone": "A"
+    },
+    {
+      "reference": 224.5,
+      "predicted": 226.6,
+      "zone": "A"
+    },
+    {
+      "reference": 329.8,
+      "predicted": 328.4,
+      "zone": "A"
+    },
+    {
+      "reference": 264.6,
+      "predicted": 256.0,
+      "zone": "A"
+    },
+    {
+      "reference": 206.1,
+      "predicted": 207.7,
+      "zone": "A"
+    },
+    {
+      "reference": 371.1,
+      "predicted": 371.4,
+      "zone": "A"
+    },
+    {
+      "reference": 260.9,
+      "predicted": 261.2,
+      "zone": "A"
+    },
+    {
+      "reference": 188.0,
+      "predicted": 198.2,
+      "zone": "A"
+    },
+    {
+      "reference": 170.2,
+      "predicted": 164.8,
+      "zone": "A"
+    },
+    {
+      "reference": 168.5,
+      "predicted": 165.8,
+      "zone": "A"
+    },
+    {
+      "reference": 278.6,
+      "predicted": 283.1,
+      "zone": "A"
+    },
+    {
+      "reference": 222.8,
+      "predicted": 223.9,
+      "zone": "A"
+    },
+    {
+      "reference": 252.0,
+      "predicted": 254.4,
+      "zone": "A"
+    },
+    {
+      "reference": 196.2,
+      "predicted": 209.5,
+      "zone": "A"
+    },
+    {
+      "reference": 172.3,
+      "predicted": 173.6,
+      "zone": "A"
+    },
+    {
+      "reference": 352.6,
+      "predicted": 346.0,
+      "zone": "A"
+    },
+    {
+      "reference": 256.2,
+      "predicted": 253.6,
+      "zone": "A"
+    },
+    {
+      "reference": 187.9,
+      "predicted": 189.8,
+      "zone": "A"
+    },
+    {
+      "reference": 170.5,
+      "predicted": 164.8,
+      "zone": "A"
+    },
+    {
+      "reference": 136.9,
+      "predicted": 132.8,
+      "zone": "A"
+    },
+    {
+      "reference": 224.3,
+      "predicted": 229.6,
+      "zone": "A"
+    },
+    {
+      "reference": 189.1,
+      "predicted": 200.7,
+      "zone": "A"
+    },
+    {
+      "reference": 312.9,
+      "predicted": 313.7,
+      "zone": "A"
+    },
+    {
+      "reference": 255.0,
+      "predicted": 239.8,
+      "zone": "A"
+    },
+    {
+      "reference": 222.4,
+      "predicted": 229.4,
+      "zone": "A"
+    },
+    {
+      "reference": 361.9,
+      "predicted": 366.7,
+      "zone": "A"
+    },
+    {
+      "reference": 379.4,
+      "predicted": 381.0,
+      "zone": "A"
+    },
+    {
+      "reference": 340.8,
+      "predicted": 341.1,
+      "zone": "A"
+    },
+    {
+      "reference": 268.2,
+      "predicted": 267.8,
+      "zone": "A"
+    },
+    {
+      "reference": 224.4,
+      "predicted": 223.3,
+      "zone": "A"
+    },
+    {
+      "reference": 213.4,
+      "predicted": 209.1,
+      "zone": "A"
+    },
+    {
+      "reference": 307.3,
+      "predicted": 293.2,
+      "zone": "A"
+    },
+    {
+      "reference": 334.3,
+      "predicted": 328.5,
+      "zone": "A"
+    },
+    {
+      "reference": 372.4,
+      "predicted": 371.3,
+      "zone": "A"
+    },
+    {
+      "reference": 360.8,
+      "predicted": 365.5,
+      "zone": "A"
+    },
+    {
+      "reference": 278.2,
+      "predicted": 281.2,
+      "zone": "A"
+    },
+    {
+      "reference": 381.9,
+      "predicted": 380.1,
+      "zone": "A"
+    },
+    {
+      "reference": 357.9,
+      "predicted": 352.2,
+      "zone": "A"
+    },
+    {
+      "reference": 286.4,
+      "predicted": 277.3,
+      "zone": "A"
+    },
+    {
+      "reference": 233.0,
+      "predicted": 237.1,
+      "zone": "A"
+    },
+    {
+      "reference": 214.8,
+      "predicted": 209.7,
+      "zone": "A"
+    },
+    {
+      "reference": 312.8,
+      "predicted": 309.3,
+      "zone": "A"
+    },
+    {
+      "reference": 306.0,
+      "predicted": 299.4,
+      "zone": "A"
+    },
+    {
+      "reference": 359.1,
+      "predicted": 321.7,
+      "zone": "A"
+    },
+    {
+      "reference": 353.9,
+      "predicted": 356.1,
+      "zone": "A"
+    },
+    {
+      "reference": 376.2,
+      "predicted": 369.8,
+      "zone": "A"
+    },
+    {
+      "reference": 384.1,
+      "predicted": 385.4,
+      "zone": "A"
+    },
+    {
+      "reference": 320.9,
+      "predicted": 329.2,
+      "zone": "A"
+    },
+    {
+      "reference": 255.2,
+      "predicted": 254.1,
+      "zone": "A"
+    },
+    {
+      "reference": 219.0,
+      "predicted": 214.8,
+      "zone": "A"
+    },
+    {
+      "reference": 210.8,
+      "predicted": 207.8,
+      "zone": "A"
+    },
+    {
+      "reference": 285.1,
+      "predicted": 280.9,
+      "zone": "A"
+    },
+    {
+      "reference": 298.4,
+      "predicted": 293.4,
+      "zone": "A"
+    },
+    {
+      "reference": 356.1,
+      "predicted": 373.7,
+      "zone": "A"
+    },
+    {
+      "reference": 349.0,
+      "predicted": 352.4,
+      "zone": "A"
+    },
+    {
+      "reference": 281.9,
+      "predicted": 276.9,
+      "zone": "A"
+    },
+    {
+      "reference": 381.4,
+      "predicted": 370.9,
+      "zone": "A"
+    },
+    {
+      "reference": 346.9,
+      "predicted": 353.5,
+      "zone": "A"
+    },
+    {
+      "reference": 265.7,
+      "predicted": 271.4,
+      "zone": "A"
+    },
+    {
+      "reference": 226.3,
+      "predicted": 224.2,
+      "zone": "A"
+    },
+    {
+      "reference": 204.9,
+      "predicted": 208.5,
+      "zone": "A"
+    },
+    {
+      "reference": 268.6,
+      "predicted": 255.9,
+      "zone": "A"
+    },
+    {
+      "reference": 278.3,
+      "predicted": 283.1,
+      "zone": "A"
+    },
+    {
+      "reference": 336.7,
+      "predicted": 347.6,
+      "zone": "A"
+    },
+    {
+      "reference": 334.8,
+      "predicted": 337.3,
+      "zone": "A"
+    },
+    {
+      "reference": 365.8,
+      "predicted": 365.6,
+      "zone": "A"
+    },
+    {
+      "reference": 381.1,
+      "predicted": 386.4,
+      "zone": "A"
+    },
+    {
+      "reference": 110.8,
+      "predicted": 102.7,
+      "zone": "A"
+    },
+    {
+      "reference": 198.4,
+      "predicted": 199.1,
+      "zone": "A"
+    },
+    {
+      "reference": 142.9,
+      "predicted": 138.9,
+      "zone": "A"
+    },
+    {
+      "reference": 109.4,
       "predicted": 113.5,
       "zone": "A"
     },
     {
-      "reference": 207.5,
-      "predicted": 204.5,
+      "reference": 109.6,
+      "predicted": 111.1,
       "zone": "A"
     },
     {
-      "reference": 145.4,
-      "predicted": 147.6,
+      "reference": 111.8,
+      "predicted": 114.7,
       "zone": "A"
     },
     {
-      "reference": 113.8,
-      "predicted": 115.1,
+      "reference": 165.5,
+      "predicted": 162.7,
       "zone": "A"
     },
     {
-      "reference": 108.3,
+      "reference": 131.2,
+      "predicted": 133.2,
+      "zone": "A"
+    },
+    {
+      "reference": 224.2,
+      "predicted": 220.1,
+      "zone": "A"
+    },
+    {
+      "reference": 158.8,
+      "predicted": 157.6,
+      "zone": "A"
+    },
+    {
+      "reference": 85.3,
+      "predicted": 92.6,
+      "zone": "A"
+    },
+    {
+      "reference": 228.1,
+      "predicted": 226.1,
+      "zone": "A"
+    },
+    {
+      "reference": 160.3,
+      "predicted": 159.7,
+      "zone": "A"
+    },
+    {
+      "reference": 119.1,
+      "predicted": 117.8,
+      "zone": "A"
+    },
+    {
+      "reference": 114.9,
+      "predicted": 111.1,
+      "zone": "A"
+    },
+    {
+      "reference": 119.2,
+      "predicted": 113.2,
+      "zone": "A"
+    },
+    {
+      "reference": 161.9,
+      "predicted": 157.2,
+      "zone": "A"
+    },
+    {
+      "reference": 124.1,
+      "predicted": 129.7,
+      "zone": "A"
+    },
+    {
+      "reference": 193.2,
+      "predicted": 201.8,
+      "zone": "A"
+    },
+    {
+      "reference": 161.0,
+      "predicted": 142.0,
+      "zone": "A"
+    },
+    {
+      "reference": 114.9,
+      "predicted": 116.3,
+      "zone": "A"
+    },
+    {
+      "reference": 180.3,
+      "predicted": 181.2,
+      "zone": "A"
+    },
+    {
+      "reference": 136.5,
+      "predicted": 133.7,
+      "zone": "A"
+    },
+    {
+      "reference": 111.3,
+      "predicted": 114.6,
+      "zone": "A"
+    },
+    {
+      "reference": 104.9,
+      "predicted": 111.2,
+      "zone": "A"
+    },
+    {
+      "reference": 115.6,
+      "predicted": 113.2,
+      "zone": "A"
+    },
+    {
+      "reference": 151.4,
+      "predicted": 153.1,
+      "zone": "A"
+    },
+    {
+      "reference": 125.4,
+      "predicted": 124.8,
+      "zone": "A"
+    },
+    {
+      "reference": 234.2,
+      "predicted": 224.0,
+      "zone": "A"
+    },
+    {
+      "reference": 164.9,
+      "predicted": 165.6,
+      "zone": "A"
+    },
+    {
+      "reference": 90.6,
+      "predicted": 91.9,
+      "zone": "A"
+    },
+    {
+      "reference": 177.0,
+      "predicted": 183.0,
+      "zone": "A"
+    },
+    {
+      "reference": 142.7,
+      "predicted": 136.8,
+      "zone": "A"
+    },
+    {
+      "reference": 113.5,
       "predicted": 112.2,
       "zone": "A"
     },
     {
-      "reference": 111.6,
-      "predicted": 113.6,
+      "reference": 109.5,
+      "predicted": 112.1,
       "zone": "A"
     },
     {
-      "reference": 184.5,
-      "predicted": 183.6,
+      "reference": 117.3,
+      "predicted": 114.6,
       "zone": "A"
     },
     {
-      "reference": 137.3,
-      "predicted": 141.3,
+      "reference": 199.2,
+      "predicted": 199.4,
       "zone": "A"
     },
     {
-      "reference": 199.0,
-      "predicted": 197.9,
+      "reference": 142.7,
+      "predicted": 139.6,
       "zone": "A"
     },
     {
-      "reference": 166.8,
-      "predicted": 165.9,
+      "reference": 230.7,
+      "predicted": 224.5,
       "zone": "A"
     },
     {
-      "reference": 106.5,
-      "predicted": 98.8,
+      "reference": 155.6,
+      "predicted": 164.7,
       "zone": "A"
     },
     {
-      "reference": 194.4,
-      "predicted": 190.6,
+      "reference": 89.4,
+      "predicted": 93.2,
+      "zone": "A"
+    },
+    {
+      "reference": 244.7,
+      "predicted": 250.3,
       "zone": "A"
     }
   ],
@@ -1395,49 +1395,49 @@
       "patient_id": "PT-101",
       "patient_name": "Rajesh Patel",
       "hba1c": 7.4,
-      "persistence_mae": 15.4,
-      "fused_mae": 6.11,
-      "mae_improvement_percent": 60.3
+      "persistence_mae": 14.91,
+      "fused_mae": 6.09,
+      "mae_improvement_percent": 59.2
     },
     {
       "patient_id": "PT-102",
       "patient_name": "Sunita Sharma",
       "hba1c": 8.8,
-      "persistence_mae": 17.17,
-      "fused_mae": 6.56,
-      "mae_improvement_percent": 61.8
+      "persistence_mae": 16.64,
+      "fused_mae": 6.57,
+      "mae_improvement_percent": 60.5
     },
     {
       "patient_id": "PT-103",
       "patient_name": "Anand Verma",
       "hba1c": 6.8,
-      "persistence_mae": 13.81,
-      "fused_mae": 5.62,
-      "mae_improvement_percent": 59.3
+      "persistence_mae": 13.73,
+      "fused_mae": 5.46,
+      "mae_improvement_percent": 60.3
     },
     {
       "patient_id": "PT-104",
       "patient_name": "Meera Nair",
       "hba1c": 8.2,
-      "persistence_mae": 15.46,
-      "fused_mae": 6.03,
-      "mae_improvement_percent": 61.0
+      "persistence_mae": 17.65,
+      "fused_mae": 7.15,
+      "mae_improvement_percent": 59.5
     },
     {
       "patient_id": "PT-105",
       "patient_name": "Vikram Sengupta",
       "hba1c": 9.3,
-      "persistence_mae": 15.66,
-      "fused_mae": 6.72,
-      "mae_improvement_percent": 57.1
+      "persistence_mae": 15.14,
+      "fused_mae": 6.28,
+      "mae_improvement_percent": 58.5
     },
     {
       "patient_id": "PT-106",
       "patient_name": "Pooja Iyer",
       "hba1c": 6.5,
-      "persistence_mae": 12.8,
-      "fused_mae": 4.95,
-      "mae_improvement_percent": 61.4
+      "persistence_mae": 12.52,
+      "fused_mae": 5.38,
+      "mae_improvement_percent": 57.0
     }
   ],
   "summary_findings": [
